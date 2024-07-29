@@ -1,0 +1,68 @@
+/* Main Window */
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* Title */
+h1.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Date Field */
+.date-field {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}
+
+/* Global Parameter (hidden) */
+.global-parameter {
+  display: none;
+}
+
+/* Mode Display */
+.mode-display {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+}
+
+/* Cursor Style */
+form {
+  cursor: default;
+}
+
+/* SAVE Button */
+button.save-button {
+  background-color: #ccc;
+  color: #666;
+  border: 1px solid #999;
+  cursor: not-allowed;
+}
+
+/* Specific Fields */
+input.group-id,
+input.part-number,
+input.part-status,
+input.part-description,
+input.line-id,
+input.unit-id {
+  font-size: 16px;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Focus on Unit ID */
+input.unit-id:focus {
+  outline: 2px solid #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

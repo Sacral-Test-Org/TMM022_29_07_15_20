@@ -1,0 +1,56 @@
+<div class="main-window" style="width: 100%; height: 100%;">
+  <h1>T K A P - [IS]</h1>
+  <form>
+    <!-- Date Field -->
+    <div>
+      <label for="currentDate">Current Date:</label>
+      <input type="text" id="currentDate" name="currentDate" readonly />
+    </div>
+
+    <!-- Global Parameter (Hidden) -->
+    <input type="hidden" id="globalParameter" name="globalParameter" value="0" />
+
+    <!-- Mode Display -->
+    <div>
+      <label for="mode">Mode:</label>
+      <input type="text" id="mode" name="mode" readonly />
+    </div>
+
+    <!-- Specific Fields -->
+    <div>
+      <label for="groupId">Group ID:</label>
+      <input type="text" id="groupId" name="groupId" />
+    </div>
+    <div>
+      <label for="partNumber">Part Number:</label>
+      <input type="text" id="partNumber" name="partNumber" />
+    </div>
+    <div>
+      <label for="partStatus">Part Status:</label>
+      <input type="text" id="partStatus" name="partStatus" />
+    </div>
+    <div>
+      <label for="partDescription">Part Description:</label>
+      <input type="text" id="partDescription" name="partDescription" />
+    </div>
+    <div>
+      <label for="lineId">Line ID:</label>
+      <input type="text" id="lineId" name="lineId" />
+    </div>
+    <div>
+      <label for="unitId">Unit ID:</label>
+      <input type="text" id="unitId" name="unitId" autofocus />
+    </div>
+
+    <!-- SAVE Button -->
+    <div>
+      <button type="button" id="saveButton" disabled>SAVE</button>
+    </div>
+  </form>
+</div>
+
+<style>
+  .main-window {
+    cursor: default;
+  }
+</style>
